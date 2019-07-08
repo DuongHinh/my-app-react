@@ -1,3 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /*!
  * Start Bootstrap - New Age v5.0.6 (https://startbootstrap.com/template-overviews/new-age)
  * Copyright 2013-2019 Start Bootstrap
@@ -158,8 +192,6 @@
    padding-top: 150px;
    padding-bottom: 100px;
    color: white;
-   background: url("../img/bg-pattern.png"), #7b4397;
-   background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
    background: url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
  }
  
@@ -282,14 +314,13 @@
    margin-bottom: 15px;
    background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
    background: linear-gradient(to left, #7b4397, #dc2430);
-   -webkit-background-clip: text;
+   /* -webkit-background-clip: text; */
    -webkit-text-fill-color: transparent;
  }
  
  section.cta {
    position: relative;
    padding: 250px 0;
-   background-image: url("../img/bg-cta.jpg");
    background-position: center;
    background-size: cover;
  }
@@ -442,4 +473,13 @@
    min-height: 31vh;
    height: 10vh;
  }
+
+ ul.navbar-nav.ml-auto li a {
+  display: block;
+  padding: 10px 12px;
+}
+
+img.img-detail{
+  width: 100%;
+}
  
